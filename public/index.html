@@ -62,7 +62,7 @@
           <h1 class="sitename">re:Class</h1>
         </a>
 
-        <nav id="nav_menu" class="nav-menu">
+        <nav id="nav-menu" class="nav-menu">
           <ul>
             <li>
               <a href="/#hero" class="active">Home</a>
@@ -751,7 +751,6 @@
 
             <div class="col-lg-6">
               <form
-                id="contact-form"
                 class="submit-forms"
                 data-aos="fade-up"
                 data-aos-delay="500"
@@ -802,20 +801,22 @@
                   </div>
 
                   <div class="col-md-12 text-center">
-                    <div id="contact-loading" class="loading d-none">
-                      Loading
+                    <div
+                      class="d-flex justify-content-around align-items-center"
+                    >
+                      <button id="contact-submit" type="submit">
+                        Send Message
+                      </button>
+
+                      <div id="contact-loading" class="loading d-none">
+                        Loading
+                      </div>
                     </div>
-                    <div id="contact-error" class="error-message d-none">
-                      It looks like there was an error when we tried to send a
-                      message.
-                    </div>
+                    <div id="contact-error" class="error-message d-none"></div>
+
                     <div id="contact-sent" class="sent-message d-none">
                       Your message has been sent. Thank you!
                     </div>
-
-                    <button id="contact-form-submit" type="submit">
-                      Send Message
-                    </button>
                   </div>
                 </div>
               </form>
@@ -830,7 +831,7 @@
     <footer id="footer" class="footer dark-background">
       <div class="container footer-top">
         <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about me-auto">
+          <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
               <span class="sitename">re:Class</span>
             </a>
@@ -846,7 +847,7 @@
             </div>
           </div>
 
-          <div class="col-2 footer-links">
+          <div class="col footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li>
@@ -870,6 +871,32 @@
                 <a href="#contact">Contact</a>
               </li>
             </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>
+              Subscribe to our newsletter and receive the latest news about our
+              products and services!F
+            </p>
+            <form class="submit-forms">
+              <div class="newsletter-form">
+                <!-- <input type="email" name="email" /> -->
+                <input
+                  id="nl-email"
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+                <input id="nl-submit" type="submit" value="Subscribe" />
+              </div>
+              <div id="nl-loading" class="loading">Loading</div>
+              <div id="nl-error" class="error-message d-none"></div>
+              <div id="nl-sent" class="sent-message d-none">
+                Thank You for Subscribing to Our Newsletter
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -903,5 +930,6 @@
     <script src="/assets/js/addTeachers.js"></script>
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/contactus.js"></script>
+    <script src="/assets/js/newsletter.js"></script>
   </body>
 </html>

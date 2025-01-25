@@ -6,19 +6,17 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
   exit;
 }
 // Get POST data
-$name = isset($_POST['name']) ? $_POST['name'] : '';
 $email = isset($_POST['email']) ? $_POST['email'] : '';
-$mobile = isset($_POST['mobile']) ? $_POST['mobile'] : '';
-$message = isset($_POST['message']) ? $_POST['message'] : '';
+
 
 // Prepare data for the cURL request
 $data = array(
   "bId" => "MTAwMDAwMjky",
-  "type" => "0",
-  "name" => $name,
-  "mobile" => $mobile,
+  "type" => "1",
+  "name" => ".",
+  "mobile" => ".",
   "email" => $email,
-  "message" => $message,
+  "message" => ".",
 );
 
 // print_r($data);

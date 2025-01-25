@@ -52,8 +52,8 @@
   /**
    * Hide mobile nav on same-page/hash links
    */
-  document.querySelectorAll("#nav_menu a").forEach((nav_menu) => {
-    nav_menu.addEventListener("click", () => {
+  document.querySelectorAll("#nav-menu a").forEach((navMenu) => {
+    navMenu.addEventListener("click", () => {
       if (document.querySelector(".mobile-nav-active")) {
         mobileNavToggle();
       }
@@ -63,16 +63,14 @@
   /**
    * Toggle mobile nav dropdowns
    */
-  document
-    .querySelectorAll(".nav-menu .toggle-dropdown")
-    .forEach((nav_menu) => {
-      nav_menu.addEventListener("click", function (e) {
-        e.preventDefault();
-        this.parentNode.classList.toggle("active");
-        this.parentNode.nextElementSibling.classList.toggle("dropdown-active");
-        e.stopImmediatePropagation();
-      });
+  document.querySelectorAll(".nav-menu .toggle-dropdown").forEach((navMenu) => {
+    navMenu.addEventListener("click", function (e) {
+      e.preventDefault();
+      this.parentNode.classList.toggle("active");
+      this.parentNode.nextElementSibling.classList.toggle("dropdown-active");
+      e.stopImmediatePropagation();
     });
+  });
 
   /**
    * Preloader

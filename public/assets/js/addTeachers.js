@@ -18,7 +18,7 @@ async function loadTeacherProfiles() {
       // Create the HTML structure for each teacher
       const teacherHTML = `
           <div
-            class="col-lg-2 col-md-3 my-3"
+            class="col-xl-2 col-lg-3 col-md-4 col-sm-6 my-3"
             data-aos="fade-up"
             data-aos-delay="200"
           >

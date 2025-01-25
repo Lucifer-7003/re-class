@@ -92,9 +92,9 @@ h6 {
 .submit-forms .error-message {
   background: #df1529;
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   padding: 15px;
-  margin-bottom: 24px;
+  margin: 12px 0;
   font-weight: 600;
 }
 
@@ -103,15 +103,14 @@ h6 {
   background: #059652;
   text-align: center;
   padding: 15px;
-  margin-bottom: 24px;
+  margin: 12px 0;
   font-weight: 600;
 }
 
 .submit-forms .loading {
   background: var(--surface-color);
   text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
+  transition: 0.4s;
 }
 
 .submit-forms .loading:before {
@@ -616,12 +615,6 @@ h6 {
   padding-bottom: 12px;
 }
 
-.footer .footer-links {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-}
-
 .footer .footer-links ul {
   list-style: none;
   padding: 0;
@@ -687,7 +680,7 @@ h6 {
   outline: none;
 }
 
-.footer .footer-newsletter .newsletter-form input[type=submit] {
+.footer .footer-newsletter .newsletter-form #nl-submit {
   border: 0;
   font-size: 16px;
   padding: 0 20px;
@@ -698,8 +691,20 @@ h6 {
   border-radius: 0 4px 4px 0;
 }
 
-.footer .footer-newsletter .newsletter-form input[type=submit]:hover {
+.footer .footer-newsletter .newsletter-form #nl-submit:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+.footer .footer-newsletter .newsletter-form #nl-submit:disabled {
+  background: #828282;
+}
+
+.footer .footer-newsletter .newsletter-form #nl-submit:disabled:hover {
+  background: #828282;
+}
+
+.submit-forms .loading#nl-loading {
+  background: var(--background-color);
 }
 
 .footer .copyright {
@@ -1746,7 +1751,7 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.contact .submit-forms button[type=submit] {
+.contact .submit-forms #contact-submit {
   color: var(--contrast-color);
   background: var(--accent-color);
   border: 0;
@@ -1755,8 +1760,16 @@ section,
   border-radius: 50px;
 }
 
-.contact .submit-forms button[type=submit]:hover {
+.contact .submit-forms #contact-submit:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+.contact .submit-forms #contact-submit:disabled {
+  background: #828282;
+}
+
+.contact .submit-forms #contact-submit:disabled:hover {
+  background: #828282;
 }
 
 /*--------------------------------------------------------------
