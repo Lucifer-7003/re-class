@@ -1,0 +1,220 @@
+{
+  "data": [
+    {
+      "name": "Rajesh Sharma",
+      "photo": "rajesh_sharma.jpg",
+      "subject": "Mathematics (Secondary, Sr. Secondary)",
+      "work_experience": "10 years",
+      "hours_of_classes_taken": 1500,
+      "rating": 4.8,
+      "self_description": "Passionate math educator with a knack for simplifying complex problems and inspiring students."
+    },
+    {
+      "name": "Arvind Yadav",
+      "photo": "arvind_yadav.jpg",
+      "subject": "Physics (Secondary, Sr. Secondary)",
+      "work_experience": "8 years",
+      "hours_of_classes_taken": 1200,
+      "rating": 4.7,
+      "self_description": "Experienced physics teacher dedicated to making science accessible and exciting for young learners."
+    },
+    {
+      "name": "Ankit Kumar",
+      "photo": "ankit_kumar.jpg",
+      "subject": "Chemistry (Secondary, Sr. Secondary)",
+      "work_experience": "6 years",
+      "hours_of_classes_taken": 900,
+      "rating": 4.6,
+      "self_description": "Chemistry enthusiast with a passion for making chemistry relatable through real-life examples and experiments."
+    },
+    {
+      "name": "Harish Reddy",
+      "photo": "blankuser.jpg",
+      "subject": "Biology (Secondary, Sr. Secondary)",
+      "work_experience": "7 years",
+      "hours_of_classes_taken": 1100,
+      "rating": 4.7,
+      "self_description": "Biology specialist with a focus on helping students understand life sciences through clear, practical teaching."
+    },
+    {
+      "name": "Vikram Singh",
+      "photo": "vikram_singh.jpg",
+      "subject": "Computer Science (Secondary, Sr. Secondary)",
+      "work_experience": "5 years",
+      "hours_of_classes_taken": 800,
+      "rating": 4.6,
+      "self_description": "Tech enthusiast passionate about teaching coding, algorithms, and the fundamentals of computer science."
+    },
+    {
+      "name": "Anjali Mehta",
+      "photo": "anjali_mehta.jpg",
+      "subject": "Chemistry (Secondary, Sr. Secondary)",
+      "work_experience": "5 years",
+      "hours_of_classes_taken": 800,
+      "rating": 4.6,
+      "self_description": "Enthusiastic chemistry teacher dedicated to helping students succeed through innovative and practical teaching techniques."
+    },
+    {
+      "name": "Pankaj Gupta",
+      "photo": "blankuser.jpg",
+      "subject": "History (Secondary, Sr. Secondary)",
+      "work_experience": "10 years",
+      "hours_of_classes_taken": 1600,
+      "rating": 4.8,
+      "self_description": "History educator with a passion for storytelling and helping students connect the past with the present."
+    },
+    {
+      "name": "Deepak Kumar",
+      "photo": "deepak_kumar.jpg",
+      "subject": "Geography (Secondary, Sr. Secondary)",
+      "work_experience": "6 years",
+      "hours_of_classes_taken": 1000,
+      "rating": 4.6,
+      "self_description": "Dedicated to making geography fun and engaging through interactive teaching methods and hands-on learning."
+    },
+    {
+      "name": "Seema Patel",
+      "photo": "seema_patel.jpg",
+      "subject": "History (Secondary, Sr. Secondary)",
+      "work_experience": "8 years",
+      "hours_of_classes_taken": 1300,
+      "rating": 4.7,
+      "self_description": "History mentor who brings the past alive through storytelling and thought-provoking discussions."
+    },
+    {
+      "name": "Amit Bhardwaj",
+      "photo": "amit_bhardwaj.jpg",
+      "subject": "Economics (Sr. Secondary, Graduation)",
+      "work_experience": "12 years",
+      "hours_of_classes_taken": 2000,
+      "rating": 4.9,
+      "self_description": "Economics expert passionate about simplifying complex concepts and empowering students with real-world applications."
+    },
+    {
+      "name": "Vinod Chaudhary",
+      "photo": "vinod_chaudhary.jpg",
+      "subject": "Political Science (Sr. Secondary, Graduation)",
+      "work_experience": "8 years",
+      "hours_of_classes_taken": 1300,
+      "rating": 4.7,
+      "self_description": "Political science educator who loves engaging students in meaningful discussions on governance and social structures."
+    },
+    {
+      "name": "Kunal Mehta",
+      "photo": "kunal_mehta.jpg",
+      "subject": "Sociology (Sr. Secondary, Graduation)",
+      "work_experience": "5 years",
+      "hours_of_classes_taken": 900,
+      "rating": 4.6,
+      "self_description": "Sociology mentor dedicated to helping students explore human behavior, culture, and societal dynamics."
+    },
+    {
+      "name": "Ramesh Kumar",
+      "photo": "blankuser.jpg",
+      "subject": "Accountancy (Sr. Secondary, Graduation)",
+      "work_experience": "15 years",
+      "hours_of_classes_taken": 2500,
+      "rating": 4.9,
+      "self_description": "Seasoned accountancy teacher helping students master numbers and financial concepts with clarity and ease."
+    },
+    {
+      "name": "Rajiv Soni",
+      "photo": "rajiv_soni.jpg",
+      "subject": "Mathematics (Sr. Secondary, Graduation)",
+      "work_experience": "12 years",
+      "hours_of_classes_taken": 2000,
+      "rating": 4.8,
+      "self_description": "Mathematics mentor passionate about empowering students to excel in advanced mathematical concepts and problem-solving."
+    },
+    {
+      "name": "Priya Sharma",
+      "photo": "priya_sharma.jpg",
+      "subject": "English (Secondary, Sr. Secondary)",
+      "work_experience": "4 years",
+      "hours_of_classes_taken": 600,
+      "rating": 4.5,
+      "self_description": "Dynamic English teacher dedicated to enhancing communication skills and fostering a love for language."
+    },
+    {
+      "name": "Pradeep Joshi",
+      "photo": "blankuser.jpg",
+      "subject": "Business Studies (Sr. Secondary, Graduation)",
+      "work_experience": "10 years",
+      "hours_of_classes_taken": 1800,
+      "rating": 4.7,
+      "self_description": "Business studies educator helping students navigate the complexities of entrepreneurship and corporate management."
+    },
+    {
+      "name": "Manish Kapoor",
+      "photo": "blankuser.jpg",
+      "subject": "Chemistry (Graduation)",
+      "work_experience": "7 years",
+      "hours_of_classes_taken": 1100,
+      "rating": 4.6,
+      "self_description": "Passionate about guiding students through advanced chemistry concepts with clarity and enthusiasm."
+    },
+    {
+      "name": "Rohit Desai",
+      "photo": "blankuser.jpg",
+      "subject": "Literature (Secondary, Sr. Secondary)",
+      "work_experience": "8 years",
+      "hours_of_classes_taken": 1300,
+      "rating": 4.7,
+      "self_description": "Literature educator inspiring a love for reading and critical analysis of great works."
+    },
+    {
+      "name": "Sudhir Rathi",
+      "photo": "blankuser.jpg",
+      "subject": "Hindi (Secondary, Sr. Secondary)",
+      "work_experience": "9 years",
+      "hours_of_classes_taken": 1400,
+      "rating": 4.7,
+      "self_description": "Dedicated Hindi teacher committed to promoting language skills and cultural appreciation."
+    },
+    {
+      "name": "Subhash Patel",
+      "photo": "blankuser.jpg",
+      "subject": "Physical Education (Secondary, Sr. Secondary)",
+      "work_experience": "5 years",
+      "hours_of_classes_taken": 800,
+      "rating": 4.6,
+      "self_description": "Physical education expert focused on holistic student development through fitness and discipline."
+    },
+    {
+      "name": "Nikhil Verma",
+      "photo": "blankuser.jpg",
+      "subject": "Psychology (Graduation)",
+      "work_experience": "4 years",
+      "hours_of_classes_taken": 700,
+      "rating": 4.5,
+      "self_description": "Psychology teacher focused on making complex theories accessible and relevant to everyday life."
+    },
+    {
+      "name": "Sanjay Verma",
+      "photo": "blankuser.jpg",
+      "subject": "English (Secondary, Sr. Secondary)",
+      "work_experience": "9 years",
+      "hours_of_classes_taken": 1400,
+      "rating": 4.7,
+      "self_description": "Experienced English teacher committed to enhancing students' language skills and fostering a love for literature."
+    },
+    {
+      "name": "Neha Gupta",
+      "photo": "blankuser.jpg",
+      "subject": "Biology (Secondary, Sr. Secondary)",
+      "work_experience": "6 years",
+      "hours_of_classes_taken": 900,
+      "rating": 4.6,
+      "self_description": "Passionate biology educator with a focus on making life sciences engaging and easy to understand."
+    },
+    {
+      "name": "Sunita Chauhan",
+      "photo": "blankuser.jpg",
+      "subject": "Mathematics (Secondary, Sr. Secondary)",
+      "work_experience": "6 years",
+      "hours_of_classes_taken": 1000,
+      "rating": 4.6,
+      "self_description": "Mathematics teacher passionate about simplifying concepts and inspiring confidence in problem-solving."
+    }
+  ]
+}
