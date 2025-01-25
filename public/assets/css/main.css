@@ -1625,12 +1625,12 @@ section,
   font-size: 16px;
 }
 
-.team .member .subject {
+.team .member .line-below {
   position: relative;
   padding-bottom: 10px;
 }
 
-.team .member .subject::after {
+.team .member .line-below::after {
   content: "";
   position: absolute;
   display: block;
@@ -1662,7 +1662,14 @@ section,
   margin: 0 2px;
 }
 
-
+.team #teachers-section h2 {
+  color: var(--heading-color);
+  margin: 0;
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: var(--heading-font);
+}
 
 /*--------------------------------------------------------------
 # Contact Section

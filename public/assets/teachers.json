@@ -3,7 +3,11 @@
     {
       "name": "Rajesh Sharma",
       "photo": "rajesh_sharma.jpg",
-      "subject": "Mathematics (Secondary, Sr. Secondary)",
+      "subject": "Mathematics",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "10 years",
       "hours_of_classes_taken": 1500,
       "rating": 4.8,
@@ -12,7 +16,11 @@
     {
       "name": "Arvind Yadav",
       "photo": "arvind_yadav.jpg",
-      "subject": "Physics (Secondary, Sr. Secondary)",
+      "subject": "Physics",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "8 years",
       "hours_of_classes_taken": 1200,
       "rating": 4.7,
@@ -21,7 +29,11 @@
     {
       "name": "Ankit Kumar",
       "photo": "ankit_kumar.jpg",
-      "subject": "Chemistry (Secondary, Sr. Secondary)",
+      "subject": "Chemistry",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "6 years",
       "hours_of_classes_taken": 900,
       "rating": 4.6,
@@ -30,7 +42,11 @@
     {
       "name": "Harish Reddy",
       "photo": "blankuser.jpg",
-      "subject": "Biology (Secondary, Sr. Secondary)",
+      "subject": "Biology",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "7 years",
       "hours_of_classes_taken": 1100,
       "rating": 4.7,
@@ -39,7 +55,11 @@
     {
       "name": "Vikram Singh",
       "photo": "vikram_singh.jpg",
-      "subject": "Computer Science (Secondary, Sr. Secondary)",
+      "subject": "Computer Science",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "5 years",
       "hours_of_classes_taken": 800,
       "rating": 4.6,
@@ -48,7 +68,11 @@
     {
       "name": "Anjali Mehta",
       "photo": "anjali_mehta.jpg",
-      "subject": "Chemistry (Secondary, Sr. Secondary)",
+      "subject": "Chemistry",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "5 years",
       "hours_of_classes_taken": 800,
       "rating": 4.6,
@@ -57,7 +81,11 @@
     {
       "name": "Pankaj Gupta",
       "photo": "blankuser.jpg",
-      "subject": "History (Secondary, Sr. Secondary)",
+      "subject": "History",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "10 years",
       "hours_of_classes_taken": 1600,
       "rating": 4.8,
@@ -66,7 +94,11 @@
     {
       "name": "Deepak Kumar",
       "photo": "deepak_kumar.jpg",
-      "subject": "Geography (Secondary, Sr. Secondary)",
+      "subject": "Geography",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "6 years",
       "hours_of_classes_taken": 1000,
       "rating": 4.6,
@@ -75,7 +107,11 @@
     {
       "name": "Seema Patel",
       "photo": "seema_patel.jpg",
-      "subject": "History (Secondary, Sr. Secondary)",
+      "subject": "History",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "8 years",
       "hours_of_classes_taken": 1300,
       "rating": 4.7,
@@ -84,7 +120,11 @@
     {
       "name": "Amit Bhardwaj",
       "photo": "amit_bhardwaj.jpg",
-      "subject": "Economics (Sr. Secondary, Graduation)",
+      "subject": "Economics",
+      "grades": [
+        "Sr. Secondary",
+        "Graduation"
+      ],
       "work_experience": "12 years",
       "hours_of_classes_taken": 2000,
       "rating": 4.9,
@@ -93,7 +133,11 @@
     {
       "name": "Vinod Chaudhary",
       "photo": "vinod_chaudhary.jpg",
-      "subject": "Political Science (Sr. Secondary, Graduation)",
+      "subject": "Political Science",
+      "grades": [
+        "Sr. Secondary",
+        "Graduation"
+      ],
       "work_experience": "8 years",
       "hours_of_classes_taken": 1300,
       "rating": 4.7,
@@ -102,7 +146,11 @@
     {
       "name": "Kunal Mehta",
       "photo": "kunal_mehta.jpg",
-      "subject": "Sociology (Sr. Secondary, Graduation)",
+      "subject": "Sociology",
+      "grades": [
+        "Sr. Secondary",
+        "Graduation"
+      ],
       "work_experience": "5 years",
       "hours_of_classes_taken": 900,
       "rating": 4.6,
@@ -111,7 +159,11 @@
     {
       "name": "Ramesh Kumar",
       "photo": "blankuser.jpg",
-      "subject": "Accountancy (Sr. Secondary, Graduation)",
+      "subject": "Accountancy",
+      "grades": [
+        "Sr. Secondary",
+        "Graduation"
+      ],
       "work_experience": "15 years",
       "hours_of_classes_taken": 2500,
       "rating": 4.9,
@@ -120,7 +172,11 @@
     {
       "name": "Rajiv Soni",
       "photo": "rajiv_soni.jpg",
-      "subject": "Mathematics (Sr. Secondary, Graduation)",
+      "subject": "Mathematics",
+      "grades": [
+        "Sr. Secondary",
+        "Graduation"
+      ],
       "work_experience": "12 years",
       "hours_of_classes_taken": 2000,
       "rating": 4.8,
@@ -129,7 +185,11 @@
     {
       "name": "Priya Sharma",
       "photo": "priya_sharma.jpg",
-      "subject": "English (Secondary, Sr. Secondary)",
+      "subject": "English",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "4 years",
       "hours_of_classes_taken": 600,
       "rating": 4.5,
@@ -138,7 +198,11 @@
     {
       "name": "Pradeep Joshi",
       "photo": "blankuser.jpg",
-      "subject": "Business Studies (Sr. Secondary, Graduation)",
+      "subject": "Business Studies",
+      "grades": [
+        "Sr. Secondary",
+        "Graduation"
+      ],
       "work_experience": "10 years",
       "hours_of_classes_taken": 1800,
       "rating": 4.7,
@@ -147,7 +211,10 @@
     {
       "name": "Manish Kapoor",
       "photo": "blankuser.jpg",
-      "subject": "Chemistry (Graduation)",
+      "subject": "Chemistry",
+      "grades": [
+        "Graduation"
+      ],
       "work_experience": "7 years",
       "hours_of_classes_taken": 1100,
       "rating": 4.6,
@@ -156,7 +223,11 @@
     {
       "name": "Rohit Desai",
       "photo": "blankuser.jpg",
-      "subject": "Literature (Secondary, Sr. Secondary)",
+      "subject": "Literature",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "8 years",
       "hours_of_classes_taken": 1300,
       "rating": 4.7,
@@ -165,7 +236,11 @@
     {
       "name": "Sudhir Rathi",
       "photo": "blankuser.jpg",
-      "subject": "Hindi (Secondary, Sr. Secondary)",
+      "subject": "Hindi",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "9 years",
       "hours_of_classes_taken": 1400,
       "rating": 4.7,
@@ -174,7 +249,11 @@
     {
       "name": "Subhash Patel",
       "photo": "blankuser.jpg",
-      "subject": "Physical Education (Secondary, Sr. Secondary)",
+      "subject": "Physical Education",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "5 years",
       "hours_of_classes_taken": 800,
       "rating": 4.6,
@@ -183,7 +262,10 @@
     {
       "name": "Nikhil Verma",
       "photo": "blankuser.jpg",
-      "subject": "Psychology (Graduation)",
+      "subject": "Psychology",
+      "grades": [
+        "Graduation"
+      ],
       "work_experience": "4 years",
       "hours_of_classes_taken": 700,
       "rating": 4.5,
@@ -192,7 +274,11 @@
     {
       "name": "Sanjay Verma",
       "photo": "blankuser.jpg",
-      "subject": "English (Secondary, Sr. Secondary)",
+      "subject": "English",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "9 years",
       "hours_of_classes_taken": 1400,
       "rating": 4.7,
@@ -201,7 +287,11 @@
     {
       "name": "Neha Gupta",
       "photo": "blankuser.jpg",
-      "subject": "Biology (Secondary, Sr. Secondary)",
+      "subject": "Biology",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "6 years",
       "hours_of_classes_taken": 900,
       "rating": 4.6,
@@ -210,7 +300,11 @@
     {
       "name": "Sunita Chauhan",
       "photo": "blankuser.jpg",
-      "subject": "Mathematics (Secondary, Sr. Secondary)",
+      "subject": "Mathematics",
+      "grades": [
+        "Secondary",
+        "Sr. Secondary"
+      ],
       "work_experience": "6 years",
       "hours_of_classes_taken": 1000,
       "rating": 4.6,

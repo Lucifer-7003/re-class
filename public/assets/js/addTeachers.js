@@ -8,13 +8,13 @@ async function loadTeacherProfiles() {
     }
 
     const data = await response.json();
-    // console.log(data["data"]);
 
     // Select the container where the teacher profiles will be appended
     const container = document.querySelector("#teachers-container");
 
     // Iterate through the JSON data and generate the HTML dynamically
     data["data"].forEach((teacher) => {
+      const grades = teacher.grades.join(", ");
       // Create the HTML structure for each teacher
       const teacherHTML = `
           <div
@@ -38,6 +38,7 @@ async function loadTeacherProfiles() {
                 <div class="d-flex flex-column">
                   <span class="name">${teacher.name}</span>
                   <span class="subject">${teacher.subject}</span>
+                  <span class="grade line-below">${grades}</span>
                 </div>
                 <span class="description">${teacher.self_description}</span>
               </div>

@@ -239,37 +239,6 @@
   window.addEventListener("load", navmenuScrollspy);
   document.addEventListener("scroll", navmenuScrollspy);
 
-  /**
-   * Observe a section with a given ID and call the callback when the section is visible.
-   * @param {string} sectionId - The ID of the section to observe.
-   * @param {function} callback - The function to call when the section is visible.
-   */
-  function observeSection(sectionId, callback) {
-    const section = document.querySelector(sectionId);
-
-    if (!section) {
-      console.error(`Section with ID ${sectionId} not found.`);
-      return;
-    }
-
-    const observer = new IntersectionObserver(
-      (entries, observer) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            callback(); // Call the function when the section is visible
-            observer.unobserve(section); // Stop observing after the callback
-          }
-        });
-      },
-      {
-        root: null, // Default is the viewport
-        threshold: 0.1, // Trigger when 10% of the section is visible
-      }
-    );
-
-    observer.observe(section);
-  }
-
   // Use the observer to load profiles when the section becomes visible
-  observeSection("#teachers-section", loadTeacherProfiles);
+  loadTeacherProfiles();
 })();
