@@ -49,6 +49,8 @@ async function loadTeacherProfiles() {
       // Append the HTML to the container
       container.insertAdjacentHTML("beforeend", teacherHTML);
     });
+
+    console.log("Teachers Profile Loaded");
   } catch (error) {
     console.error("Error loading teacher profiles:", error);
   }
