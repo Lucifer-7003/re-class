@@ -36,7 +36,7 @@ async function loadTeacherProfiles() {
               </div>
               <div class="member-info">
                 <div class="d-flex flex-column">
-                  <span class="name">${teacher.name}</span>
+                  <h5 class="name">${teacher.name}</h5>
                   <span class="subject">${teacher.subject}</span>
                   <span class="grade line-below">${grades}</span>
                 </div>
