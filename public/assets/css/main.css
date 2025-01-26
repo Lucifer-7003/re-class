@@ -57,6 +57,10 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  --border-radius: 10px
+}
+
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
@@ -255,7 +259,7 @@ h6 {
   font-size: 13px;
   padding: 7px 25px;
   margin: 0 0 0 30px;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   transition: 0.3s;
   text-transform: uppercase;
   border: 2px solid var(--contrast-color);
@@ -662,7 +666,7 @@ h6 {
   margin-bottom: 15px;
   padding: 6px 8px;
   position: relative;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
   display: flex;
   background-color: var(--background-color);
@@ -693,7 +697,7 @@ h6 {
   background: var(--accent-color);
   color: var(--contrast-color);
   transition: 0.3s;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
 }
 
 .footer .footer-newsletter .newsletter-form #nl-submit:hover {
@@ -772,10 +776,9 @@ h6 {
   bottom: 15px;
   z-index: 99999;
   background-color: var(--accent-color);
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   transition: all 0.4s;
+  padding: 10px;
 }
 
 .scroll-top i {
@@ -973,7 +976,7 @@ section,
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   transition: 0.3s;
   text-transform: uppercase;
 }
@@ -1087,6 +1090,7 @@ section,
   background-color: var(--surface-color);
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
   padding: 30px;
+  border-radius: var(--border-radius);
 }
 
 .stats .stats-item i {
@@ -1200,6 +1204,7 @@ section,
   justify-content: center;
   cursor: pointer;
   height: 100%;
+  border-radius: var(--border-radius);
 }
 
 .services .nav-link i {
@@ -1278,6 +1283,11 @@ section,
 
 .services .tab-pane p:last-child {
   margin-bottom: 0;
+}
+
+.services .tab-pane .features-img {
+  border-radius: var(--border-radius);
+  border: 1px solid var(--default-color);
 }
 
 /* Added by aditya end */
@@ -1604,11 +1614,13 @@ section,
   display: flex;
   flex-direction: column;
   position: relative;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius);
 }
 
 .team .member .pic {
   overflow: hidden;
-  border-radius: 10px 10px 0 0;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
 .team .member .pic img {
@@ -1622,7 +1634,7 @@ section,
   background: color-mix(in srgb, var(--background-color), transparent 20%);
   color: var(--accent-color);
   padding: 5px 10px;
-  border-radius: 0 10px;
+  border-radius: 0 var(--border-radius);
 }
 
 .team .member .member-info {
@@ -1632,7 +1644,7 @@ section,
   padding: 20px 15px;
   overflow: hidden;
   transition: 0.5s;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
   flex-grow: 1;
 }
 
@@ -1686,13 +1698,19 @@ section,
   margin: 0 2px;
 }
 
-.team #teachers-section h2 {
+.team #teachers-section .teachers-heading {
   color: var(--heading-color);
   margin: 0;
   font-size: 36px;
   font-weight: 800;
   text-transform: uppercase;
   font-family: var(--heading-font);
+}
+
+@media (max-width: 768px) {
+  .team #teachers-section .teachers-heading {
+    font-size: 24px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1702,6 +1720,7 @@ section,
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 24px 0 30px 0;
+  border-radius: var(--border-radius);
 }
 
 .contact .info-item i {
@@ -1738,6 +1757,7 @@ section,
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   height: 100%;
   padding: 30px;
+  border-radius: var(--border-radius);
 }
 
 @media (max-width: 575px) {
@@ -1752,7 +1772,7 @@ section,
   font-size: 14px;
   padding: 10px 15px;
   box-shadow: none;
-  border-radius: 0;
+  border-radius: var(--border-radius);
   color: var(--default-color);
   background-color: var(--surface-color);
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
@@ -1776,7 +1796,7 @@ section,
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
-  border-radius: 50px;
+  border-radius: var(--border-radius);
 }
 
 .contact .submit-forms #contact-submit:hover {
