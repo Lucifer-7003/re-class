@@ -1614,7 +1614,7 @@ section,
   position: absolute;
   top: 0;
   right: -1px;
-  background: var(--background-color);
+  background: color-mix(in srgb, var(--background-color), transparent 20%);
   color: var(--accent-color);
   padding: 5px 10px;
   border-radius: 0 10px;
@@ -1645,7 +1645,8 @@ section,
 
 .team .member .line-below {
   position: relative;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .team .member .line-below::after {
