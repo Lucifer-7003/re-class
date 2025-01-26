@@ -248,7 +248,7 @@
     },
     {
       "name": "Subhash Patel",
-      "photo": "blankuser.jpg",
+      "photo": "subhash_patel.jpg",
       "subject": "Physical Education",
       "grades": [
         "Secondary",
@@ -261,7 +261,7 @@
     },
     {
       "name": "Nikhil Verma",
-      "photo": "blankuser.jpg",
+      "photo": "nikhil_verma.jpg",
       "subject": "Psychology",
       "grades": [
         "Graduation"
@@ -286,7 +286,7 @@
     },
     {
       "name": "Neha Gupta",
-      "photo": "blankuser.jpg",
+      "photo": "neha_gupta.jpg",
       "subject": "Biology",
       "grades": [
         "Secondary",

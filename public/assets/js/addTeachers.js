@@ -29,7 +29,7 @@ async function loadTeacherProfiles() {
                   class="img-fluid photo"
                   alt="${teacher.name}"
                 />
-                <div class="rating">
+                <div class="rating d-none">
                   <i class="bi bi-star-fill"></i>
                   ${teacher.rating}
                 </div>
