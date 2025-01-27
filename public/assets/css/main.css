@@ -92,7 +92,7 @@ h6 {
 }
 
 .img-fluid {
-  width: 100% !important;
+  width: 100%;
   max-width: none;
 }
 
@@ -1607,8 +1607,6 @@ section,
 # Team Section
 --------------------------------------------------------------*/
 
-
-
 .team .member {
   height: 100%;
   display: flex;
@@ -1620,11 +1618,10 @@ section,
 
 .team .member .pic {
   overflow: hidden;
-  border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
 .team .member .pic img {
-  width: 100%;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
 .team .member .rating {
@@ -1641,11 +1638,15 @@ section,
   background-color: var(--surface-color);
   color: color-mix(in srgb, var(--default-color), transparent 20%) !important;
   /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
-  padding: 20px 15px;
+  padding: 10px 15px;
   overflow: hidden;
   transition: 0.5s;
   border-radius: 0 0 var(--border-radius) var(--border-radius);
   flex-grow: 1;
+}
+
+.team .member.founder .member-info {
+  padding: 20px;
 }
 
 .team .member .founder-name {
@@ -1654,7 +1655,6 @@ section,
 }
 
 .team .member .name {
-  font-style: italic;
   display: block;
   font-weight: 700;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
@@ -1677,7 +1677,11 @@ section,
   left: 0;
 }
 
-.team .member span {
+.team .member.founder .info-span {
+  font-size: 15px;
+}
+
+.team .member .info-span {
   font-style: italic;
   display: block;
   font-size: 13px;

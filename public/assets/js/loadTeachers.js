@@ -1,5 +1,5 @@
 // Function to fetch and display the teacher profiles
-async function loadTeacherProfiles() {
+async function loadTeacher() {
   try {
     // Fetch the JSON data from the file
     const response = await fetch("/assets/teachers.json"); // Adjust the path if needed
@@ -13,35 +13,37 @@ async function loadTeacherProfiles() {
     const container = document.querySelector("#teachers-container");
 
     // Iterate through the JSON data and generate the HTML dynamically
-    data["data"].forEach((teacher) => {
+    data["data"].forEach((teacher, index) => {
       const grades = teacher.grades.join(", ");
+
       // Create the HTML structure for each teacher
       const teacherHTML = `
           <div
-            class="col-xl-2 col-lg-3 col-md-4 col-sm-6 my-3"
+            class="col-sm-6 col-12 my-3"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <a href="/team.html">
-              <div class="member">
-                <div class="pic">
-                  <img
-                    src="/assets/img/team/${teacher.photo}"
-                    class="img-fluid photo"
-                    alt="${teacher.name}"
-                  />
-                  <div class="rating d-none">
-                    <i class="bi bi-star-fill"></i>
-                    ${teacher.rating}
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h6 class="name">${teacher.name}</h6>
-                  <span class="subject info-span">${teacher.subject}</span>
-                  <span class="grade info-span">${grades}</span>
+            <div class="member d-flex">
+              <div class="pic col-sm-4 ">
+                <img
+                  src="/assets/img/team/${teacher.photo}"
+                  class="img-fluid photo"
+                  alt="${teacher.name}"
+                />
+                <div class="rating d-none">
+                  <i class="bi bi-star-fill"></i>
+                  ${teacher.rating}
                 </div>
               </div>
-            </a>
+              <div class="member-info ">
+                <div class="d-flex flex-column">
+                  <h6 class="name">${teacher.name}</h6>
+                  <span class="subject info-span">${teacher.subject} (${grades})</span>
+                  <span class="experience info-span">Experience: ${teacher.work_experience}</span>
+                </div>
+                <span class="description info-span">${teacher.self_description}</span>
+              </div>
+            </div>
           </div>
         `;
 
