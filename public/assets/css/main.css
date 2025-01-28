@@ -1037,17 +1037,17 @@ section,
   color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
 }
 
-.about .content ul {
+.about .about-content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.about .about-content ul li {
   padding: 0 0 10px 30px;
   position: relative;
 }
 
-.about .content ul i {
+.about .about-content ul i {
   position: absolute;
   font-size: 20px;
   left: 0;
@@ -1055,7 +1055,7 @@ section,
   color: var(--accent-color);
 }
 
-.about .content p:last-child {
+.about .about-content p:last-child {
   margin-bottom: 0;
 }
 
@@ -1291,6 +1291,29 @@ section,
 }
 
 /* Added by aditya end */
+
+/*--------------------------------------------------------------
+# mvcv Section
+--------------------------------------------------------------*/
+.mvcv .mvcv-item {
+  background-color: var(--surface-color);
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.mvcv .mvcv-item .info-span {
+  font-style: italic;
+  display: block;
+}
+
+.mvcv .mvcv-item .mvcv-title {
+  color: var(--accent-color);
+  font-size: 28px;
+  display: block;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
 
 /*--------------------------------------------------------------
 # Clients Section
